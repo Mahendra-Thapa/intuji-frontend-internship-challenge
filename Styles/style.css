@@ -101,7 +101,14 @@ text-align: center;
 
 .h-last{
   display: flex;
+
   gap: 30px;
+}
+
+.h-last p {
+  display: flex;
+  gap: 10px;
+  
 }
 
 

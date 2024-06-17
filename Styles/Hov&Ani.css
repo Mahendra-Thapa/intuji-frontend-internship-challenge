@@ -315,6 +315,16 @@ li a:hover::before {
   font-size: 45px;
 }
 
+/* chose us part */
+.chose-us{
+  padding-left: 10%;
+}
+
+.chose-us1{
+  padding-left: 10%;
+}
+
+
 .test-main-footer{
   display: grid;
   grid-template-columns:   1fr;
