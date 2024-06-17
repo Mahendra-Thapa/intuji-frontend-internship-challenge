@@ -83,10 +83,19 @@ width: 400px;
 .right-sec{
 text-align: center;
 }
+.left-sec p{
+  width: auto;
+  margin: 10px;
+}
+
+.h-btn{
+  width: 300px;
+}
 
 .home-img{
   margin-bottom: -6px;
   height: 540px;
+  
 }
 
 .h-btn{
@@ -637,8 +646,10 @@ padding: 20px;
 }
 
 .f-forth .content{
-  font-size: 20px;padding-bottom: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
   font-weight: bold;
+  width: auto;
 }
 .buttoon-part{
   padding-bottom: 30px;
@@ -647,10 +658,12 @@ padding: 20px;
   height: 35px;
   border-radius: none;
   border: none;
+  
 }
 
 .buttoon-part input {
   background-color: rgb(232, 233, 236);
+  width: 100%;
 }
 
 .buttoon-part button{

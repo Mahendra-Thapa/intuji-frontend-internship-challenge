@@ -309,10 +309,33 @@ li a:hover::before {
 
 
 @media only screen and (max-width: 500px) {
+
+
+
  /* For the home  */
+ /* .left-sec p{
+  width: auto;
+ } */
+
+ .h-btn{
+ justify-content: none;
+
+ }
  .left-sec h1{
   width: auto;
   font-size: 45px;
+  padding-left: 10px;
+}
+
+
+/* for the automation */
+.automation{
+  padding-left: 0px;
+}
+  
+/* logo part */
+.logo-group{
+  padding: 0px;
 }
 
 /* chose us part */
@@ -325,13 +348,35 @@ li a:hover::before {
 }
 
 
+/* testimonial part */
+.testim{
+  grid-template-columns: 1fr;
+}
+
+.testi-box{
+  grid-template-columns: 1fr;
+}
+
+/* testmonial footer */
+
 .test-main-footer{
   display: grid;
   grid-template-columns:   1fr;
 }
 
+.MTF-content{
+  border-right: 2px solid black;
+  display: grid;
+  padding-left: 2px;
+  grid-template-columns: 1fr;
+}
+
 .MBI{
   width: 90%;
+}
+
+.test-main-footer p{
+  width:  auto;
 }
 
 /* footer part */
