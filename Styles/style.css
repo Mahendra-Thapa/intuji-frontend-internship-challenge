@@ -1,0 +1,664 @@
+/* it is a universal selector */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main{
+  height: ; /* Full viewport height */
+  background: linear-gradient(to right, #bde1f0, #5ca9f5);
+  padding: 20px 0px 0 0px ;
+}
+
+/* for the header */
+.header{
+ display: flex;
+ object-position: center;
+ justify-content: space-around;
+
+}
+
+#m-menu{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+#m-menu ul li select option a:hover{
+  font-weight: bold;
+}
+
+.auth{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  
+}
+
+/* li a{
+  text-decoration: none;
+  color: black;
+} */
+
+
+
+select{
+  border: none; 
+  background: none;
+}
+
+select:hover{
+  font-weight: bold;
+}
+
+/* for the button */
+ .btn{
+  background-color: rgb(11, 35, 141);
+  border: none;
+  padding: 7px 20px;
+  margin-top: -5px ;
+  border-radius: 15px;
+}
+
+
+/* home page main section  */
+.home{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  align-items: center;
+}
+
+.left-sec{
+width: 400px;
+}
+
+.left-sec h1{
+  width: 500px;
+  font-size: 45px;
+}
+
+.right-sec{
+text-align: center;
+}
+
+.home-img{
+  margin-bottom: -6px;
+  height: 540px;
+}
+
+.h-btn{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0px;
+}
+
+.h-btn a{
+  text-decoration: none;
+}
+
+.h-last{
+  display: flex;
+  gap: 30px;
+}
+
+
+
+/* for the nav res. */
+
+/* add styles on elements */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  /* background-color: #101010; */
+  background-color: #0b0a0a;
+ 
+}
+
+
+/* Home buttom of including different logo */
+.home-bottom{
+ text-align: center;
+ padding: 20px 0px;
+ background-color: rgb(246, 246, 240);
+}
+
+.logo-group{
+ display: grid;
+ grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ text-align: center;
+ justify-content: space-between;
+ padding:0px 100px ;
+ margin-bottom: 10px;
+ gap: 20px;
+}
+
+.home-bottom-cont{
+  padding: 20px 0px;
+}
+
+
+/* automation content part after the group logo  */
+.automation{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1%  0% 0% 8%;
+ 
+}
+
+
+
+.aut-top h2{
+  font-size: 40px;
+  line-height: 45px;
+ 
+}
+.aut-top p{
+  padding-top: 15px;
+ 
+}
+.aut-bottom{
+
+ display: flex;
+ align-items: center;
+justify-content: center;
+margin-left: 2%;
+}
+
+.aut-bottom-cont{
+  background-color: rgb(232, 225, 225);
+  padding: 5% 3%;
+  height: 90%;
+  width: 65%;
+  position: relative;
+  border-radius: 20px;
+  
+}
+
+.aut-bottom-img{
+position: absolute;
+top: -20px;
+
+}
+
+/* different transaction (box)part */
+.all-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding: 8%;
+  gap: 5%;
+}
+
+.box{
+  background-color: #fff;
+  height: ;
+  /* width: 60%; */
+  border: 2px solid rgb(202, 199, 199);
+  border-radius: 10px;
+}
+
+/* for the hover effect */
+.box:hover{
+  background-color: wheat;
+  transition-duration: 3s;
+}
+
+
+
+.box .content{
+  text-align: center;
+  padding: 4% 4%;
+}
+
+.box img{
+width: 10%;
+}
+
+.box .content h1{
+  text-align: center;
+  width: 70%;
+ margin-left: 16%;
+ padding: 4% 0%;
+}
+
+
+.box .num{
+  padding: 4%;
+}
+
+
+
+/* <!-- Why chose us part --> */
+
+.chose-us{
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: 0% 4%;
+}
+
+.chose-us img{
+  width: 90%;
+  height: auto;
+}
+
+.chose-us-cont{
+  width: 70%;
+}
+.chose-us-cont h1{
+ font-size: 230%;
+ line-height: 45px;
+}
+
+.chose-us-cont .content{
+  padding: 4% 0%;
+}
+
+
+/*  second part of why chose us  */
+.chose-us1{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  padding: 0% 5%;
+  gap: 10%;
+  align-items: center;
+ 
+}
+
+.chose-us1-top h1{
+ font-size: 230%;
+ line-height: 40px;
+ padding-bottom: 5%;
+}
+
+
+.image-part{
+  width: 90%;
+  height: auto;
+ 
+}
+
+/* features */
+.main-feature-sec{
+  background-color: rgb(192, 237, 240);
+}
+
+.f-content-part{
+  padding: 80px 20px 50px 50px;
+}
+
+.main-feature-sec-box{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+padding-bottom: 70px;
+padding-left: 5%;
+}
+
+.f-content-part h1{
+  font-size: 60px;
+}
+
+.f-box{
+height: 90%;
+width: 80%;
+background-color: rgb(255, 255, 255);
+padding: 40px;
+border-radius: 15px;
+}
+
+.f-box p{
+  padding: 10px 0px;
+}
+
+.f-content{
+height: 40%;
+width: 80%;
+background-color: rgb(255, 255, 255);
+padding: 40px;
+border-radius: 10px;
+}
+
+#cont{
+  margin-top: 10px;
+}
+
+.f-box:hover{
+  background-color: wheat;
+  transition-duration: 3s;
+} 
+
+.f-content:hover{
+  background-color: wheat;
+  transition-duration: 3s;
+}
+
+
+/* Testimonials */
+.testim{
+  padding: 100px 0px 20px 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  justify-content: center;
+  place-items: center;
+  background-color: rgb(247, 246, 246);
+}
+
+.testi-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  height: 20%;
+  width: 80%;
+  padding: 3%;
+  border: 2px solid rgb(184, 183, 183);
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.testi-box:hover{
+  background-color: rgb(232, 231, 233);
+  transition: s;
+}
+
+.t-apos{
+position: absolute;
+top: -25px;
+padding-left: 20px;
+}
+
+.t-img{
+  height: 300px;
+  padding-left: 25px;
+}
+
+.testim-pic{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+/* Testimonials footer */
+
+.main-test-footer{
+background-color: rgb(56, 0, 130);
+display: grid;
+grid-template-columns: 1fr 3fr;
+height: auto;
+color: white;
+padding: 10px 0px;
+}
+.MTF-content{
+  border-right: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.MTF-content p{
+ width: 130px;
+ text-align: start;
+ place-items: center;
+ padding-top: 30px;
+}
+
+.test-fotter h1{
+  font-size: 35px;
+}
+
+.test-main-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  text-align: start;
+  align-items: start;
+  place-items: center;
+}
+.test-fotter-inner{
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+
+/* blogs section */
+.main-bolgs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 30px;
+  justify-content: center;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  padding:0px 20px;
+
+}
+
+
+
+.main-bolgs a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Blogs Second parts */
+.B-second{
+  width: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 2% 10% 2% 10%;
+
+}
+
+.b-second-blog{
+background-color: white;
+padding: 20px;
+}
+
+.b-second-blog img{
+  width: 285px;
+}
+
+/* Frequently asked question  section*/
+
+.top-main-freq{
+  padding: 2% 10% 0% 10%;
+}
+.main-frq{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.freq-heaidng{
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+.accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.4s;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  border: 1px solid rgb(126, 123, 123);
+  margin-bottom: 5px;
+}
+
+/* Add background color when clicked or hovered */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel (hidden by default) */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+/* frequently asked question message part */
+
+.mes-box{
+  border: 1px solid rgb(149, 147, 147);
+  text-align: center;
+  place-items: center;
+  padding: 4% 15% 2% 15%;
+  background-color: white;
+}
+
+.mes-box h1 {
+  padding: 8px 0px;
+}
+.mes-box p {
+  padding: 8px 0px 20px 0px;
+}
+
+.mes-box button{
+  height: ;
+  padding: 10px 45px;
+  text-decoration: none;
+  background-color: rgb(220, 117, 14);
+  border: 1px solid orange;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.mes-box button a{
+  text-decoration: none;
+  color: white;
+}
+
+.mes-box button:hover{
+  background-color: orangered;
+  transition: 2s;
+}
+
+/* discovered section */
+.disc{
+  padding: 5% 10% 5% 10%;
+}
+
+.dis-box{
+  background-color: rgb(51, 5, 141);
+  color: white;
+  text-align: center;
+  height: 20%;
+  width: 100%;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.dis-box button{
+  height: ;
+  padding: 10px 45px;
+  text-decoration: none;
+  background-color: rgb(220, 117, 14);
+  border: 1px solid orange;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.dis-box button a{
+  text-decoration: none;
+  color: white;
+}
+
+.dis-box button:hover{
+  background-color: orangered;
+  transition: 2s;
+}
+
+
+/* foorter section */
+
+.upper-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+ gap: 50px ;
+ padding: 4% 8%;
+}
+
+.upper-footer ul{
+  list-style: none;
+
+}
+
+.upper-footer ul li{
+  padding-bottom: 20px;
+}
+
+.f-first{
+  width: 20%;
+}
+.f-logo{
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  padding-top: 20px;
+  
+}
+
+
+.f-second h1{
+  padding-bottom: 20px;
+}
+.f-third h1{
+  padding-bottom: 20px;
+}
+.f-forth h1{
+  padding-bottom: 20px;
+}
+
+.f-forth .content{
+  font-size: 20px;padding-bottom: 20px;
+  font-weight: bold;
+}
+.buttoon-part{
+  padding-bottom: 30px;
+}
+.buttoon-part button, input{
+  height: 35px;
+  border-radius: none;
+  border: none;
+}
+
+.buttoon-part input {
+  background-color: rgb(232, 233, 236);
+}
+
+.buttoon-part button{
+  background-color: rgb(3, 3, 150);
+  border: none;
+  padding: 2px 20px;
+  color: white;
+}
+
+.buttoon-part p{
+  color: rgb(194, 190, 190);
+}
+
+
+/* footer bottom */
+.footer-bottom{
+  text-align: center;
+  padding: 30px 0px;
+}

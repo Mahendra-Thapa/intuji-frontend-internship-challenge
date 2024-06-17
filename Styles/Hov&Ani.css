@@ -1,0 +1,333 @@
+/* li a:hover{
+  font-weight: bold;
+  animation: ;
+} */
+
+/* for the menu bar */
+li a {
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-decoration: none; /* Remove default underline */
+  transition: black 0.3s ease; /* Smooth transition for color change */
+}
+
+li a::before {
+  content: '';
+  position: absolute;
+  font: bold;
+  width: 100%;
+  height: 2px; /* Adjust underline thickness */
+  bottom: 0;
+  left: 0;
+  background-color: black; /* Underline color */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: transform 0.3s ease, visibility 0s linear 0.3s; /* Transition for underline */
+}
+
+li a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  
+  transition: transform 0.3s ease, visibility 0s linear;
+}
+
+/* for the button */
+.btn:hover{
+  box-shadow: 0 0 10px rgba(14, 2, 32, 0.3);
+ background-color: rgb(17, 17, 17);
+ transition: 1s;
+}
+
+
+/* For the Responsive of nav bar (mobile view) */
+/* #toggleDrawer */
+
+@media (max-width: 768px) {
+  #toggleDrawer {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  #drawer {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #3fb0e0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+}
+
+/* Using the media query for the responsive*/
+
+@media (max-width: 768px) {
+
+  .home{
+    grid-template-columns:  1fr;
+  }
+
+  .right-sec{
+    display: none;
+  }
+
+  /* #m-navigation{
+    display: none;
+  } */
+
+  #navigation{
+    display: flex;
+   }
+
+   #m-menu{
+    display: grid;
+    height: 100px;
+   }
+
+   .res-bar{
+    display: flex;
+   }
+
+   .h-btn{
+    padding: 20px 0px;
+   }
+
+   .h-last{
+    padding-bottom: 10px;
+   }
+
+}
+
+
+@media  (min-width: 768px) {
+ .right1-sec{
+  display: none;
+ }
+
+ .res-bar{
+  display: none;
+ }
+
+
+ 
+}
+
+/* nav for the responsive */
+
+@media only screen and (max-width: 768px) {
+
+  /* for the nav responsive */
+  .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-link {
+      color: #fff;
+  }
+
+  .nav-menu.active {
+      left: 0;
+      background-color: rgb(114, 170, 235);
+      height: 200px;
+      padding-top: 10px ;
+  }
+
+ 
+
+  .res-bar {
+      display: block;
+      background: transparent;
+      cursor: pointer;
+  }
+
+  .res-bar.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+
+  .res-bar.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+  }
+
+  .res-bar.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+  }
+
+
+ 
+
+  /* for the home bottom content and logo  */
+  .home-bottom{
+    text-align: center;
+    padding: 20px 0px;
+   }
+   
+   .logo-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 30px;
+   
+    width: auto;
+    margin-bottom: 10px;
+   }
+   
+   .home-bottom-cont{
+     padding: 20px 0px;
+   }
+
+
+   /* automation content part after the group logo  */
+.automation{
+  display: grid;
+  grid-template-columns: 1fr ;
+  padding: 1%  0% 5% 8%;
+ 
+}
+
+.aut-top{
+  padding: 2% 0 10% 14%; 
+}
+
+
+/* different transaction (box)part */
+.all-box{
+  display: grid;
+  grid-template-columns: 1fr  ;
+  padding: 8%;
+  gap: 5%;
+}
+
+/* <!-- Why chose us part --> */
+
+.chose-us{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20% 4% 0% 20%;
+  }
+
+
+  /*  second part of why chose us  */
+.chose-us1{
+  display: grid;
+  grid-template-columns:  1fr ;
+  padding: 20% 4% 0% 20%;
+}
+
+.main-feature-sec{
+  padding-left: 0% 10%;
+}
+
+.main-feature-sec-box{
+  display: grid;
+  grid-template-columns: 1fr ;
+  
+  
+  }
+
+  .f-box{
+    margin: 20px 0px 20px 50px;
+  }
+
+  .f-content{
+    margin: 20px 0px 20px 50px;
+  }
+
+  .aut-bottom-cont{
+    margin-top: 30px;
+  }
+  /* Testimonilas cart
+   */
+   .testim-pic{
+    display: grid;
+    grid-template-columns:  1fr;
+     
+  }
+  
+  .testi-box{
+    margin-top: 50px;
+  }
+
+  .test-main-footer{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+  }
+
+  /* blogs section first part */
+.main-bolgs{
+  display: grid;
+  grid-template-columns:  1fr;
+  padding-top: 30px;
+  justify-content: center;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  padding:0px 20px;
+}
+
+  /* Blogs Second parts */
+.B-second{
+  grid-template-columns:  1fr;
+ align-items: center;
+  place-items: center;
+
+}
+
+.b-second-blog{
+  background-color: white;
+ 
+  }
+
+
+  /* frequently asked question */
+  .main-frq{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* //footer */
+  .upper-footer{
+    
+    grid-template-columns: 1fr 1fr  ;
+   
+  }
+  
+}
+
+
+@media only screen and (max-width: 500px) {
+ /* For the home  */
+ .left-sec h1{
+  width: auto;
+  font-size: 45px;
+}
+
+.test-main-footer{
+  display: grid;
+  grid-template-columns:   1fr;
+}
+
+.MBI{
+  width: 90%;
+}
+
+/* footer part */
+.upper-footer{
+    
+  grid-template-columns: 1fr 1fr  ;
+ 
+}
+}
