@@ -310,12 +310,13 @@ li a:hover::before {
 
 @media only screen and (max-width: 500px) {
 
+ 
 
 
  /* For the home  */
- /* .left-sec p{
+ .left-sec p{
   width: auto;
- } */
+ }
 
  .h-btn{
  justify-content: none;
@@ -326,6 +327,7 @@ li a:hover::before {
   font-size: 45px;
   padding-left: 10px;
 }
+
 
 
 /* for the automation */
