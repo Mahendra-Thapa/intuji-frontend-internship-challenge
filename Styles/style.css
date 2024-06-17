@@ -502,6 +502,7 @@ padding: 20px;
   grid-template-columns: 4fr 1fr;
   border: 1px solid rgb(126, 123, 123);
   margin-bottom: 5px;
+  gap: 30px;
 }
 
 /* Add background color when clicked or hovered */
